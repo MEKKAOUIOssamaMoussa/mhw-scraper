@@ -19,5 +19,6 @@ public record WeaponSlot(
         int[] sharpness,
         List<Integer> slots,
         List<Decoration> decorations,
+        List<SkillEntry> skills,
         boolean isArtian
 ) {}

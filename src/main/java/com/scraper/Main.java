@@ -22,6 +22,15 @@ public class Main {
             Document doc = loadDocument(args);
             BuildExtractor extractor = new BuildExtractor();
             BuildPage page = extractor.extract(doc);
+            
+            // Output to JSON
+            com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
+            mapper.enable(com.fasterxml.jackson.databind.SerializationFeature.INDENT_OUTPUT);
+            String outputFileName = page.slug() + ".json";
+            File outputFile = new File(outputFileName);
+            mapper.writeValue(outputFile, page);
+            System.out.println("[SUCCESS] Saved extracted data to " + outputFileName);
+            
             printBuildReport(page);
         } catch (Exception e) {
             System.err.println("[ERROR] " + e.getMessage());
@@ -94,8 +103,7 @@ public class Main {
 
         System.out.println("\n  ── Skills ──────────────────────────────────────────────────");
         for (SkillEntry s : v.skills()) {
-            // Aggregate level is null in the source JSON; actual value is the sum of per-piece contributions
-            String lvDisplay = s.level() != null && s.level() > 0 ? "Lv" + s.level() : "(sum of pieces)";
+            String lvDisplay = s.level() != null && s.level() > 0 ? "Lv" + s.level() : "Lv0";
             System.out.printf("  %-38s %s / max %d%n", s.name(), lvDisplay, s.maxLevel());
         }
 

@@ -110,20 +110,80 @@ public class BuildExtractor {
 
     private BuildVariant parseVariant(JsonNode variant) {
         JsonNode eq = variant.path("equipment");
+        ArmorSlot head = parseArmor(eq.path("head"));
+        ArmorSlot chest = parseArmor(eq.path("chest"));
+        ArmorSlot arms = parseArmor(eq.path("arms"));
+        ArmorSlot waist = parseArmor(eq.path("waist"));
+        ArmorSlot legs = parseArmor(eq.path("legs"));
+        ArmorSlot charm = parseArmor(eq.path("charm"));
+        ArmorSlot mantle = parseArmor(eq.path("mantle"));
+
+        // Aggregate skill levels across all armor pieces
+        List<SkillEntry> baseSkills = parseSkillList(eq.path("skills"));
+        WeaponSlot weapon = parseWeapon(eq.path("weapon"));
+        List<SkillEntry> aggregatedSkills = aggregateSkills(baseSkills, weapon, head, chest, arms, waist, legs, charm, mantle);
+
         return new BuildVariant(
             variant.path("id").asText(),
-            parseWeapon(eq.path("weapon")),
-            parseArmor(eq.path("head")),
-            parseArmor(eq.path("chest")),
-            parseArmor(eq.path("arms")),
-            parseArmor(eq.path("waist")),
-            parseArmor(eq.path("legs")),
-            parseArmor(eq.path("charm")),
-            parseArmor(eq.path("mantle")),
-            parseSkillList(eq.path("skills")),
+            weapon,
+            head,
+            chest,
+            arms,
+            waist,
+            legs,
+            charm,
+            mantle,
+            aggregatedSkills,
             parseBonusList(eq.path("setBonuses")),
             parseBonusList(eq.path("groupSkills"))
         );
+    }
+
+    private List<SkillEntry> aggregateSkills(List<SkillEntry> baseSkills, WeaponSlot weapon, ArmorSlot... slots) {
+        java.util.Map<String, Integer> levelMap = new java.util.HashMap<>();
+        
+        // Helper to add skills from a list
+        java.util.function.Consumer<List<SkillEntry>> addSkills = skills -> {
+            if (skills != null) {
+                for (SkillEntry skill : skills) {
+                    levelMap.merge(skill.slug(), skill.level() != null ? skill.level() : 0, Integer::sum);
+                }
+            }
+        };
+
+        // Helper to add skills from decorations
+        java.util.function.Consumer<List<Decoration>> addDecorations = decs -> {
+            if (decs != null) {
+                for (Decoration dec : decs) {
+                    if (dec.skills() != null) {
+                        for (SkillEntry skill : dec.skills()) {
+                            levelMap.merge(skill.slug(), skill.level() != null ? skill.level() : 0, Integer::sum);
+                        }
+                    }
+                }
+            }
+        };
+
+        // Add from weapon decorations and inherent skills
+        if (weapon != null) {
+            addDecorations.accept(weapon.decorations());
+            addSkills.accept(weapon.skills());
+        }
+
+        // Add from armor slots
+        for (ArmorSlot slot : slots) {
+            if (slot != null) {
+                addSkills.accept(slot.skills());
+                addDecorations.accept(slot.decorations());
+            }
+        }
+
+        List<SkillEntry> result = new ArrayList<>();
+        for (SkillEntry base : baseSkills) {
+            int totalLevel = levelMap.getOrDefault(base.slug(), 0);
+            result.add(new SkillEntry(base.name(), base.slug(), totalLevel > 0 ? totalLevel : null, base.maxLevel()));
+        }
+        return result;
     }
 
     private WeaponSlot parseWeapon(JsonNode w) {
@@ -131,6 +191,11 @@ public class BuildExtractor {
 
         List<Integer> slots = new ArrayList<>();
         for (JsonNode s : w.path("slots")) slots.add(s.asInt());
+        
+        List<SkillEntry> weaponSkills = new ArrayList<>();
+        for (JsonNode s : w.path("skills")) {
+            weaponSkills.add(new SkillEntry("", s.path("slug").asText(), s.path("level").asInt(), 0));
+        }
 
         return new WeaponSlot(
             w.path("name").asText(),
@@ -143,6 +208,7 @@ public class BuildExtractor {
             parseIntArray(w.path("sharpness")),
             slots,
             parseDecorations(w.path("decorations")),
+            weaponSkills,
             w.path("isArtian").asBoolean(false)
         );
     }
@@ -204,7 +270,11 @@ public class BuildExtractor {
         List<Decoration> result = new ArrayList<>();
         for (JsonNode d : decsNode) {
             if (d.isNull()) continue;
-            result.add(new Decoration(d.path("name").asText(), d.path("slug").asText(), d.path("level").asInt()));
+            List<SkillEntry> decSkills = new ArrayList<>();
+            for (JsonNode s : d.path("skills")) {
+                decSkills.add(new SkillEntry("", s.path("slug").asText(), s.path("level").asInt(), 0));
+            }
+            result.add(new Decoration(d.path("name").asText(), d.path("slug").asText(), d.path("level").asInt(), decSkills));
         }
         return result;
     }

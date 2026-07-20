@@ -1,0 +1,1125 @@
+{
+  "title" : "TU4: Endgame Long Sword Meta & Progression",
+  "slug" : "tu3-5-endgame-long-sword-meta-and-progression",
+  "weaponType" : "long-sword",
+  "datePublished" : "2025-03-11T00:14:26Z",
+  "dateModified" : "2026-01-08T12:23:52Z",
+  "favorites" : 249,
+  "sourceUrl" : "https://mobalytics.gg/mhw/builds/endgame-long-sword-meta",
+  "variants" : [ {
+    "id" : "1",
+    "weapon" : {
+      "name" : "Headsman's Hamus",
+      "slug" : "headsmans-hamus",
+      "type" : "long-sword",
+      "attack" : 627,
+      "affinity" : 5,
+      "element" : null,
+      "ailment" : null,
+      "sharpness" : [ 80, 40, 60, 80, 70, 20, 0 ],
+      "slots" : [ 3, 3, 3 ],
+      "decorations" : [ {
+        "name" : "Critical Jewel III",
+        "slug" : "critical-jewel-iii",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "critical-boost",
+          "level" : 3,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Critical Jewel II",
+        "slug" : "critical-jewel-ii",
+        "level" : 2,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "critical-boost",
+          "level" : 2,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Mastery Jewel",
+        "slug" : "mastery-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "master-s-touch",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ],
+      "skills" : [ ],
+      "isArtian" : false
+    },
+    "head" : {
+      "name" : "G. Rathalos Helm β",
+      "slug" : "g-rathalos-helm-b",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : 3,
+      "waterResist" : 1,
+      "thunderResist" : -2,
+      "iceResist" : 1,
+      "dragonResist" : -5,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "weakness-exploit",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "chest" : {
+      "name" : "Udra Miremail γ",
+      "slug" : "udra-miremail-y",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : 5,
+      "waterResist" : -4,
+      "thunderResist" : 0,
+      "iceResist" : 1,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "counterstrike",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Tenderizer Jewel",
+        "slug" : "tenderizer-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "weakness-exploit",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Chain Jewel",
+        "slug" : "chain-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "burst",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "arms" : {
+      "name" : "Gogmazios Vambraces α",
+      "slug" : "gogmazios-vambraces-a",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : -4,
+      "waterResist" : 3,
+      "thunderResist" : 0,
+      "iceResist" : 3,
+      "dragonResist" : -5,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "maximum-might",
+        "level" : 2,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Mighty Jewel",
+        "slug" : "mighty-jewel",
+        "level" : 2,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "maximum-might",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Sane Jewel",
+        "slug" : "sane-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "antivirus",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "waist" : {
+      "name" : "Gore Coil β",
+      "slug" : "gore-coil-b",
+      "defense" : [ 60, 60, 60 ],
+      "fireResist" : -2,
+      "waterResist" : 3,
+      "thunderResist" : -1,
+      "iceResist" : 2,
+      "dragonResist" : -1,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "constitution",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Tenderizer Jewel",
+        "slug" : "tenderizer-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "weakness-exploit",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Counter Jewel",
+        "slug" : "counter-jewel",
+        "level" : 2,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "counterstrike",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "legs" : {
+      "name" : "Duna Wildgreaves γ",
+      "slug" : "duna-wildgreaves-y",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : -1,
+      "waterResist" : 4,
+      "thunderResist" : -3,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "quick-sheathe",
+        "level" : 3,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Flayer Jewel",
+        "slug" : "flayer-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "flayer",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Sane Jewel",
+        "slug" : "sane-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "antivirus",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Sane Jewel",
+        "slug" : "sane-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "antivirus",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "charm" : {
+      "name" : "Challenger Charm II",
+      "slug" : "challenger-charm-ii",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "mantle" : {
+      "name" : "Corrupted Mantle",
+      "slug" : "corrupted-mantle",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ ],
+      "decorations" : [ ]
+    },
+    "skills" : [ {
+      "name" : "Weakness Exploit",
+      "slug" : "weakness-exploit",
+      "level" : 3,
+      "maxLevel" : 5
+    }, {
+      "name" : "Counterstrike",
+      "slug" : "counterstrike",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Burst",
+      "slug" : "burst",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Maximum Might",
+      "slug" : "maximum-might",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Agitator",
+      "slug" : "agitator",
+      "level" : 4,
+      "maxLevel" : 5
+    }, {
+      "name" : "Antivirus",
+      "slug" : "antivirus",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Constitution",
+      "slug" : "constitution",
+      "level" : 2,
+      "maxLevel" : 5
+    }, {
+      "name" : "Quick Sheathe",
+      "slug" : "quick-sheathe",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Flayer",
+      "slug" : "flayer",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Critical Boost",
+      "slug" : "critical-boost",
+      "level" : 5,
+      "maxLevel" : 5
+    }, {
+      "name" : "Master's Touch",
+      "slug" : "master-s-touch",
+      "level" : 1,
+      "maxLevel" : 1
+    } ],
+    "setBonuses" : [ {
+      "name" : "Rathalos's Flare",
+      "slug" : "rathalos-s-flare",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Nu Udra's Mutiny",
+      "slug" : "nu-udra-s-mutiny",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Gogmapocalypse",
+      "slug" : "gogmapocalypse",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Fulgur Anjanath's Will",
+      "slug" : "fulgur-anjanath-s-will",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Gore Magala's Tyranny",
+      "slug" : "gore-magala-s-tyranny",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Uth Duna's Cover",
+      "slug" : "uth-duna-s-cover",
+      "level" : 0,
+      "maxLevel" : 0
+    } ],
+    "groupSkills" : [ {
+      "name" : "Guardian's Protection",
+      "slug" : "guardian-s-protection",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Lord's Soul",
+      "slug" : "lord-s-soul",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Scale Layering",
+      "slug" : "scale-layering",
+      "level" : 0,
+      "maxLevel" : 0
+    } ]
+  }, {
+    "id" : "2",
+    "weapon" : {
+      "name" : "Dimensius",
+      "slug" : "dimensius",
+      "type" : "long-sword",
+      "attack" : 627,
+      "affinity" : 5,
+      "element" : null,
+      "ailment" : null,
+      "sharpness" : [ 80, 40, 60, 80, 70, 20, 0 ],
+      "slots" : [ 3, 3, 3 ],
+      "decorations" : [ {
+        "name" : "Critical Jewel III",
+        "slug" : "critical-jewel-iii",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "critical-boost",
+          "level" : 3,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Critical Jewel II",
+        "slug" : "critical-jewel-ii",
+        "level" : 2,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "critical-boost",
+          "level" : 2,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Rzr Sharp/Handicraft Jwl",
+        "slug" : "rzr-sharp-handicraft-jwl",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "razor-sharp",
+          "level" : 3,
+          "maxLevel" : 0
+        }, {
+          "name" : "",
+          "slug" : "handicraft",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ],
+      "skills" : [ ],
+      "isArtian" : true
+    },
+    "head" : {
+      "name" : "Rey Sandhelm γ",
+      "slug" : "rey-sandhelm-g",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : 0,
+      "waterResist" : -2,
+      "thunderResist" : 4,
+      "iceResist" : -3,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "weakness-exploit",
+        "level" : 1,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "maximum-might",
+        "level" : 1,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "stamina-surge",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Chain Jewel",
+        "slug" : "chain-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "burst",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "chest" : {
+      "name" : "Numinous Shroud β",
+      "slug" : "numinous-shroud-b",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : -2,
+      "waterResist" : 2,
+      "thunderResist" : 2,
+      "iceResist" : 0,
+      "dragonResist" : -4,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Challenger Jewel",
+        "slug" : "challenger-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "agitator",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "arms" : {
+      "name" : "Rey Sandbraces β",
+      "slug" : "rey-sandbraces-b",
+      "defense" : [ 60, 60, 60 ],
+      "fireResist" : 0,
+      "waterResist" : -2,
+      "thunderResist" : 4,
+      "iceResist" : -3,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "latent-power",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Counterattack Jewel",
+        "slug" : "counterattack-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "adrenaline-rush",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "waist" : {
+      "name" : "Rey Sandcoil γ",
+      "slug" : "rey-sandcoil-g",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : 0,
+      "waterResist" : -2,
+      "thunderResist" : 4,
+      "iceResist" : -3,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "latent-power",
+        "level" : 2,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "maximum-might",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "legs" : {
+      "name" : "Duna Wildgreaves γ",
+      "slug" : "duna-wildgreaves-y",
+      "defense" : [ 68, 68, 68 ],
+      "fireResist" : -1,
+      "waterResist" : 4,
+      "thunderResist" : -3,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "quick-sheathe",
+        "level" : 3,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ {
+        "name" : "Challenger Jewel",
+        "slug" : "challenger-jewel",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "agitator",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Protection Jewel",
+        "slug" : "protection-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "divine-blessing",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Protection Jewel",
+        "slug" : "protection-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "divine-blessing",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ]
+    },
+    "charm" : {
+      "name" : "Counter Charm III",
+      "slug" : "counter-charm-iii",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "counterstrike",
+        "level" : 3,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "mantle" : {
+      "name" : "Corrupted Mantle",
+      "slug" : "corrupted-mantle",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ ],
+      "decorations" : [ ]
+    },
+    "skills" : [ {
+      "name" : "Weakness Exploit",
+      "slug" : "weakness-exploit",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Maximum Might",
+      "slug" : "maximum-might",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Stamina Surge",
+      "slug" : "stamina-surge",
+      "level" : 1,
+      "maxLevel" : 3
+    }, {
+      "name" : "Burst",
+      "slug" : "burst",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Agitator",
+      "slug" : "agitator",
+      "level" : 5,
+      "maxLevel" : 5
+    }, {
+      "name" : "Latent Power",
+      "slug" : "latent-power",
+      "level" : 4,
+      "maxLevel" : 5
+    }, {
+      "name" : "Adrenaline Rush",
+      "slug" : "adrenaline-rush",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Quick Sheathe",
+      "slug" : "quick-sheathe",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Divine Blessing",
+      "slug" : "divine-blessing",
+      "level" : 2,
+      "maxLevel" : 3
+    }, {
+      "name" : "Critical Boost",
+      "slug" : "critical-boost",
+      "level" : 5,
+      "maxLevel" : 5
+    }, {
+      "name" : "Razor Sharp",
+      "slug" : "razor-sharp",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Handicraft",
+      "slug" : "handicraft",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Power Prolonger",
+      "slug" : "power-prolonger",
+      "level" : null,
+      "maxLevel" : 3
+    }, {
+      "name" : "Convert Thunder Resistance",
+      "slug" : "convert-thunder-resistance",
+      "level" : null,
+      "maxLevel" : 1
+    }, {
+      "name" : "Counterstrike",
+      "slug" : "counterstrike",
+      "level" : 3,
+      "maxLevel" : 3
+    } ],
+    "setBonuses" : [ {
+      "name" : "Rey Dau's Voltage",
+      "slug" : "rey-dau-s-voltage",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Zoh Shia's Pulse",
+      "slug" : "zoh-shia-s-pulse",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Uth Duna's Cover",
+      "slug" : "uth-duna-s-cover",
+      "level" : 0,
+      "maxLevel" : 0
+    } ],
+    "groupSkills" : [ {
+      "name" : "Lord's Soul",
+      "slug" : "lord-s-soul",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Guardian's Protection",
+      "slug" : "guardian-s-protection",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Lord's Fury",
+      "slug" : "lord-s-fury",
+      "level" : 0,
+      "maxLevel" : 0
+    } ]
+  }, {
+    "id" : "1ffc7555-bd35-4218-bc9a-30584e74b719",
+    "weapon" : {
+      "name" : "Uth Khlunda I",
+      "slug" : "uth-khlunda-i",
+      "type" : "long-sword",
+      "attack" : 528,
+      "affinity" : -15,
+      "element" : "",
+      "ailment" : null,
+      "sharpness" : [ 50, 70, 100, 30, 0, 0, 0 ],
+      "slots" : [ ],
+      "decorations" : [ ],
+      "skills" : [ {
+        "name" : "",
+        "slug" : "power-prolonger",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "isArtian" : false
+    },
+    "head" : {
+      "name" : "G. Ebony Helm",
+      "slug" : "g-ebony-helm",
+      "defense" : [ 26, 26, 26 ],
+      "fireResist" : -2,
+      "waterResist" : -3,
+      "thunderResist" : -2,
+      "iceResist" : -2,
+      "dragonResist" : 4,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "burst",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "chest" : {
+      "name" : "G. Ebony Mail",
+      "slug" : "g-ebony-mail",
+      "defense" : [ 26, 26, 26 ],
+      "fireResist" : -2,
+      "waterResist" : -3,
+      "thunderResist" : -2,
+      "iceResist" : -2,
+      "dragonResist" : 4,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "bleeding-resistance",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "arms" : {
+      "name" : "G. Ebony Braces",
+      "slug" : "g-ebony-braces",
+      "defense" : [ 26, 26, 26 ],
+      "fireResist" : -2,
+      "waterResist" : -3,
+      "thunderResist" : -2,
+      "iceResist" : -2,
+      "dragonResist" : 4,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "burst",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "waist" : {
+      "name" : "G. Ebony Coil",
+      "slug" : "g-ebony-coil",
+      "defense" : [ 26, 26, 26 ],
+      "fireResist" : -2,
+      "waterResist" : -3,
+      "thunderResist" : -2,
+      "iceResist" : -2,
+      "dragonResist" : 4,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "burst",
+        "level" : 1,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "bleeding-resistance",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "legs" : {
+      "name" : "Alloy Greaves",
+      "slug" : "alloy-greaves",
+      "defense" : [ 6, 6, 6 ],
+      "fireResist" : -2,
+      "waterResist" : 1,
+      "thunderResist" : -2,
+      "iceResist" : -2,
+      "dragonResist" : 1,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "quick-sheathe",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "charm" : {
+      "name" : "Sheathe Charm I",
+      "slug" : "sheathe-charm-i",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "quick-sheathe",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "mantle" : null,
+    "skills" : [ {
+      "name" : "Burst",
+      "slug" : "burst",
+      "level" : 3,
+      "maxLevel" : 5
+    }, {
+      "name" : "Bleeding Resistance",
+      "slug" : "bleeding-resistance",
+      "level" : 2,
+      "maxLevel" : 3
+    }, {
+      "name" : "Quick Sheathe",
+      "slug" : "quick-sheathe",
+      "level" : 2,
+      "maxLevel" : 3
+    }, {
+      "name" : "Power Prolonger",
+      "slug" : "power-prolonger",
+      "level" : 2,
+      "maxLevel" : 3
+    } ],
+    "setBonuses" : [ {
+      "name" : "Ebony Odogaron's Power",
+      "slug" : "ebony-odogaron-s-power",
+      "level" : 0,
+      "maxLevel" : 0
+    } ],
+    "groupSkills" : [ {
+      "name" : "Guardian's Pulse",
+      "slug" : "guardian-s-pulse",
+      "level" : 0,
+      "maxLevel" : 0
+    } ]
+  }, {
+    "id" : "eb8e33f0-432d-44bf-865b-45acfe046c52",
+    "weapon" : {
+      "name" : "Stahlrecht",
+      "slug" : "stahlrecht",
+      "type" : "long-sword",
+      "attack" : 693,
+      "affinity" : 20,
+      "element" : "",
+      "ailment" : null,
+      "sharpness" : [ 50, 50, 80, 60, 40, 70, 0 ],
+      "slots" : [ 3, 2, 1 ],
+      "decorations" : [ {
+        "name" : "Attack Jewel III",
+        "slug" : "attack-jewel-iii",
+        "level" : 3,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "attack-boost",
+          "level" : 3,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Attack Jewel II",
+        "slug" : "attack-jewel-ii",
+        "level" : 2,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "attack-boost",
+          "level" : 2,
+          "maxLevel" : 0
+        } ]
+      }, {
+        "name" : "Expert Jewel",
+        "slug" : "expert-jewel",
+        "level" : 1,
+        "skills" : [ {
+          "name" : "",
+          "slug" : "critical-eye",
+          "level" : 1,
+          "maxLevel" : 0
+        } ]
+      } ],
+      "skills" : [ {
+        "name" : "",
+        "slug" : "critical-element",
+        "level" : 3,
+        "maxLevel" : 0
+      } ],
+      "isArtian" : false
+    },
+    "head" : {
+      "name" : "Xu Wu Helm β",
+      "slug" : "xu-wu-helm-b",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : 1,
+      "waterResist" : 1,
+      "thunderResist" : 1,
+      "iceResist" : -3,
+      "dragonResist" : 2,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "adrenaline-rush",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "chest" : {
+      "name" : "Blango Mail β",
+      "slug" : "blango-mail-b",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : -4,
+      "waterResist" : 1,
+      "thunderResist" : 0,
+      "iceResist" : 4,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "arms" : {
+      "name" : "G. Fulgur Vambraces α",
+      "slug" : "g-fulgur-vambraces-a",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : -1,
+      "waterResist" : -1,
+      "thunderResist" : 2,
+      "iceResist" : -3,
+      "dragonResist" : -2,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "maximum-might",
+        "level" : 1,
+        "maxLevel" : 0
+      }, {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 1,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "waist" : {
+      "name" : "Blango Coil β",
+      "slug" : "blango-coil-b",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : -4,
+      "waterResist" : 1,
+      "thunderResist" : 0,
+      "iceResist" : 4,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "agitator",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "legs" : {
+      "name" : "Mizutsune Greaves β",
+      "slug" : "mizutsune-greaves-b",
+      "defense" : [ 48, 48, 48 ],
+      "fireResist" : 0,
+      "waterResist" : 2,
+      "thunderResist" : -3,
+      "iceResist" : 1,
+      "dragonResist" : -1,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "burst",
+        "level" : 2,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "charm" : {
+      "name" : "Sheathe Charm III",
+      "slug" : "sheathe-charm-iii",
+      "defense" : [ ],
+      "fireResist" : 0,
+      "waterResist" : 0,
+      "thunderResist" : 0,
+      "iceResist" : 0,
+      "dragonResist" : 0,
+      "skills" : [ {
+        "name" : "",
+        "slug" : "quick-sheathe",
+        "level" : 3,
+        "maxLevel" : 0
+      } ],
+      "decorations" : [ ]
+    },
+    "mantle" : null,
+    "skills" : [ {
+      "name" : "Adrenaline Rush",
+      "slug" : "adrenaline-rush",
+      "level" : 2,
+      "maxLevel" : 5
+    }, {
+      "name" : "Agitator",
+      "slug" : "agitator",
+      "level" : 5,
+      "maxLevel" : 5
+    }, {
+      "name" : "Maximum Might",
+      "slug" : "maximum-might",
+      "level" : 1,
+      "maxLevel" : 3
+    }, {
+      "name" : "Burst",
+      "slug" : "burst",
+      "level" : 2,
+      "maxLevel" : 5
+    }, {
+      "name" : "Critical Element",
+      "slug" : "critical-element",
+      "level" : 3,
+      "maxLevel" : 3
+    }, {
+      "name" : "Attack Boost",
+      "slug" : "attack-boost",
+      "level" : 5,
+      "maxLevel" : 5
+    }, {
+      "name" : "Critical Eye",
+      "slug" : "critical-eye",
+      "level" : 1,
+      "maxLevel" : 5
+    }, {
+      "name" : "Quick Sheathe",
+      "slug" : "quick-sheathe",
+      "level" : 3,
+      "maxLevel" : 3
+    } ],
+    "setBonuses" : [ {
+      "name" : "Xu Wu's Vigor",
+      "slug" : "xu-wu-s-vigor",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Blangonga's Spirit",
+      "slug" : "blangonga-s-spirit",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Fulgur Anjanath's Will",
+      "slug" : "fulgur-anjanath-s-will",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Mizutsune's Prowess",
+      "slug" : "mizutsune-s-prowess",
+      "level" : 0,
+      "maxLevel" : 0
+    } ],
+    "groupSkills" : [ {
+      "name" : "Buttery Leathercraft",
+      "slug" : "buttery-leathercraft",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Alluring Pelt",
+      "slug" : "alluring-pelt",
+      "level" : 0,
+      "maxLevel" : 0
+    }, {
+      "name" : "Guardian's Pulse",
+      "slug" : "guardian-s-pulse",
+      "level" : 0,
+      "maxLevel" : 0
+    } ]
+  } ]
+}
