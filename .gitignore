@@ -1,0 +1,14 @@
+# Build output
+target/
+
+# Local HTML snapshots used for development (too large for version control)
+src/test/resources/*.html
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
